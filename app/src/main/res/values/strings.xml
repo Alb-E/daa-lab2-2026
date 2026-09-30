@@ -1,4 +1,6 @@
 <resources>
     <string name="app_name">DAA lab XX</string>
-    <string name="welcome">Welcome to DAA !</string>
+    <string name="welcome">Bienvenue, veuillez entrer votre nom</string>
+    <string name="save_button">Sauver</string>
+    <string name="edit_button">Editer</string>
 </resources>
