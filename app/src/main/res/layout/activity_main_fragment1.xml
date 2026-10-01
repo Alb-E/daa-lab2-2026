@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainFragment1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical">
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/frameLayoutCounter"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:name="ch.heigvd.iict.daa.template.fragments.CounterFragment" />
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/frameLayoutColor"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:name="ch.heigvd.iict.daa.template.fragments.ColorFragment" />
+</LinearLayout>
